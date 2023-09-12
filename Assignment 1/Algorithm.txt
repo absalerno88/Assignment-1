@@ -1,0 +1,44 @@
+Q1:
+1. Reading Data from a File into an Array:
+    - Initialize a 2D array of size 200.
+    - Open the specified file in ead mode.
+    - Use nested loops to iterate through each line and read every integer.
+    - Close the file.
+
+2. Check for an Integer's Existence:
+    - Iterate through the array.
+    - If the int exists, return its index.
+    - If not, return an indication that the int doesn't exist.
+
+3. Modify an Integer's Value:
+    - Accept an index and new value as parameters.
+    - Store the old value.
+    - Replace the old value with the new value at the given index.
+    - Return both the old and new values.
+
+4. Add a New Integer:
+    - Check if the array has space.
+        - Array size is 200 based on input file of 100 integers.
+    - If so, add the int at the end.
+    - If not, indicate that the array is full.
+
+5. Replace or Remove an Integer:
+    - Accept the index as a parameter.
+    - Store the old value.
+    - If the action is to replace, then replace the value at the index with 0.
+    - If it is to remove, shift all values after the given index one step to the left.
+
+Q1:
+- Add try-catch blocks:
+
+1. Modify an Integer's Value:
+    - When accepting user input for the index and new value:
+        - Check if the index is valid.
+        - Check if the value is an integer.
+    - If any issues, throw an appropriate exception.
+
+2. Add a New Integer:
+    - When accepting user input for the new value:
+        - Check if the value is an integer.
+    - If any issues, throw an appropriate exception.
+
